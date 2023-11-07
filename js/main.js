@@ -1,18 +1,31 @@
-function iris(){
+function iriska(){
 document.querySelector(".menu").style = "right: 0px"
 }
-function yopil(){
+function yopilish(){
 document.querySelector(".menu").style = "right: -700px"
 }
 function och(){
 document.querySelector(".menu123").style = "right: 0px"
 }
 function yopil(){
-document.querySelector(".menu123").style = "right: -700px"
+document.querySelector(".menu123").style = "right: -414px"
 }
-// // /function ochiq(){
-// docu//ment.querySelector(".menu").style = "right: 0px"
-// }/
-// function yopish(){
-// document.querySelector(".menu").style = "right: -700px"
-// }
+
+function iris(){
+    document.querySelector(".menu").style = "right: 0px"
+    }
+    function yopil(){
+    document.querySelector(".menu").style = "right: -414px"
+    }
+    function iris1(){
+        document.querySelector(".menu").style = "right: 0px"
+        }
+
+
+
+        function yopil3(){
+            document.querySelector(".menu").style = "right: -450px"
+            }
+            function menuuu(){
+                document.querySelector(".menu").style = "right: 0px !important" 
+                }

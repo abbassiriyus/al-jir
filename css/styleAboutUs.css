@@ -133,6 +133,377 @@ border: none;
 
 
 
+
+
+*{
+margin: 0px;
+padding:0px;
+}
+body{
+overflow-x: hidden !important;
+background-color: #B7D0DD;
+}
+.new{
+width: 100%;
+height: 50vw;
+background: url("../img/mvshv23_Egypt_vector_style_30addac8-6fc5-4efd-827e-dfb761623eb7.png" ), linear-gradient(217deg, rgba(59, 59, 59, 0.14), rgba(255,0,0,0) 70.71%),
+linear-gradient(127deg, rgba(0, 0, 0, 0.179), rgba(0,255,0,0) 70.71%),
+linear-gradient(336deg, rgba(59, 59, 59, 0.121), rgba(0,0,255,0) 70.71%);
+background-size:100% 100% ;
+border:solid 0.1px rgba(255, 0, 0, 0);
+}
+.shadow{
+width: 100%;
+height: 48vw;
+background-color: #0F14226E;
+padding-top: 20px;
+}
+.navbar1{
+width: 100%;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items:center;
+border-top:solid 1px white;
+border-bottom:solid 1px white;
+position: absolute;
+top: 30px !important; 
+
+}
+.nim{
+width: 95%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.betta{
+width: 800px;
+display: flex;
+justify-content:space-between;
+align-items:center;
+font-size: 23px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:white;
+}
+.gamma{
+width: 100px;
+font-size: 40px;
+color:white;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+.gamma1{
+display: none;
+}
+
+.navbar2{
+width: 40%;
+text-align: center;
+margin: auto;
+color:rgb(255, 255, 255);
+margin-top: 15vw;
+}
+.nav1{
+font-size: 2.6vw;
+text-align: center;
+font-family: 'Noto Serif', 'serif';
+}
+.nav2 span{
+font-size: 1.2vw;
+font-family: sans-serif;
+line-height: 29px;
+}
+.menu{
+width: 400px;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.353) !important;
+color: white;
+font-size: 40px;
+text-align: left;
+padding-top: 100px;
+padding: 1%;
+position: fixed;
+top: 0px;
+right: -508px;
+z-index: 109;
+}
+.m_x{
+width: 90%;
+display: flex;
+justify-content: right;
+margin-top: 40px;
+}
+.menu span{
+font-family: sans-serif;
+line-height: 60px;
+}
+.spann{
+width: 50%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann1{
+width: 50%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann2{
+width: 57%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann3{
+width: 60%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann4{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann5{
+width: 55%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+.spann1:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+.spann2:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+.spann3:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+.spann4:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}.spann5:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+
+@media(max-width:1318px){
+.nav1{
+font-size: 3vw;
+text-align: center;
+}
+.nav2 span{
+font-size: 1.6vw;
+font-family: sans-serif;
+}
+.navbar2{
+width: 70%;
+text-align: center;
+margin: auto;
+color:rgb(255, 255, 255);
+margin-top: 13vw;
+}
+}
+@media(max-width:880px){
+.betta{
+display: none;
+}
+.gamma1{
+display: block;
+}
+.nav1{
+font-size: 3.8vw;
+text-align: center;
+}
+.nav2 span{
+font-size: 2.3vw;
+font-family: sans-serif;
+}
+.navbar2{
+width: 70%;
+text-align: center;
+margin: auto;
+color:rgb(255, 255, 255);
+margin-top: 9vw;
+}
+}
+@media(max-width:846px){
+.shadow{
+width: 100%;
+height: 47.8vw;
+background-color: #0F14226E;
+padding-top: 20px;
+}
+}
+@media(max-width:772px){
+.shadow{
+width: 100%;
+height: 47vw;
+background-color: #0F14226E;
+padding-top: 20px;
+}
+}
+@media(max-width:742px){
+.nav1{
+font-size: 3.8vw;
+text-align: center;
+}
+.nav2 span{
+font-size: 2.3vw;
+font-family: sans-serif;
+line-height: 20px;
+}
+.navbar2{
+width: 70%;
+text-align: center;
+margin: auto;
+color:rgb(255, 255, 255);
+margin-top: 5vw;
+}
+}
+@media(max-width:690px){
+.navbar1{
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items:center;
+border-top:solid 1px white;
+border-bottom:solid 1px white;
+}
+}
+@media(max-width:556px){
+.shadow{
+width: 100%;
+height: 46.7vw;
+background-color: #0F14226E;
+padding-top: 20px;
+}
+
+}
+@media(max-width:526px){
+.nav1{
+font-size: 3.8vw;
+text-align: center;
+}
+.nav2 span{
+font-size: 2.3vw;
+font-family: sans-serif;
+}
+.navbar2{
+width: 70%;
+text-align: center;
+margin: auto;
+color:rgb(255, 255, 255);
+margin-top: 0vw;
+}
+}
+@media(max-width:429px){
+.navbar2{
+width: 70%;
+text-align: center;
+margin: auto;
+color:rgb(255, 255, 255);
+margin-top: 9vw;
+}
+.nav1{
+font-size: 7vw;
+text-align: center;
+margin-bottom: 25px;
+}
+.nav2 span{
+font-size: 4.5vw;
+font-family: sans-serif;
+line-height: 26px;
+}
+.navbar1{
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items:center;
+border-top:solid 0px white;
+border-bottom:solid 1px white;
+}
+.alfa{
+margin-left: 30px;
+}
+.alfa img{
+width: 80px;
+height: 50px;
+}
+.shadow{
+width: 100%;
+height: 100vw;
+background-color: #0F14226E;
+padding-top: 15px;
+position: relative;
+right: 1px;
+}
+.menu{
+width: 100%;
+height: 100vh;
+background-color: rgb(255, 115, 0);
+color: white;
+font-size: 40px;
+text-align: left;
+padding-top: 100px;
+padding: 1%;
+position: fixed;
+top: 0px;
+right: -500px;
+z-index: 109;
+}
+.new{
+width: 100%;
+height: 110vw;
+background: url("../Figma-zakaz/mvshv23_Egypt_vector_style_30addac8-6fc5-4efd-827e-dfb761623eb7.png" ), linear-gradient(217deg, rgba(59, 59, 59, 0.14), rgba(255,0,0,0) 70.71%),
+linear-gradient(127deg, rgba(0, 0, 0, 0.179), rgba(0,255,0,0) 70.71%),
+linear-gradient(336deg, rgba(59, 59, 59, 0.121), rgba(0,0,255,0) 70.71%);
+background-size:100% 100% ;
+border:solid 0.1px rgba(255, 0, 0, 0);
+}
+}
+@media(max-width:321px){
+.menu{
+width: 100%;
+height: 100vh;
+background-color: rgb(255, 115, 0);
+color: white;
+font-size: 20px;
+text-align: left;
+padding-top: 100px;
+padding: 1%;
+position: fixed;
+top: 0px;
+right: -500px;
+z-index: 109;
+}
+}
+
 /* 1-main */
 
 .main{

@@ -77,7 +77,7 @@ line-height: 29px;
 .menu{
 width: 400px;
 height: 100vh;
-background-color: rgb(255, 115, 0);
+background-color: rgba(0, 0, 0, 0.479) !important;
 color: white;
 font-size: 40px;
 text-align: left;
@@ -85,7 +85,7 @@ padding-top: 100px;
 padding: 1%;
 position: fixed;
 top: 0px;
-right: -500px;
+right: -460px !important;
 z-index: 109;
 }
 .m_x{
@@ -148,26 +148,20 @@ border-radius:20px;
 }
 .spann:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 .spann1:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 .spann2:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 .spann3:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 .spann4:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }.spann5:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 
 @media(max-width:1318px){
@@ -255,6 +249,37 @@ border-top:solid 1px white;
 border-bottom:solid 1px white;
 }
 }
+@media (max-width:505px) {
+    .alfa img{
+    width: 80px;
+    }
+    .navbar1{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border-top:solid 1px white;
+        border-bottom:solid 1px white;
+        }
+        .navbar2{
+            width: 70%;
+            text-align: center;
+            margin: auto;
+            color:rgb(255, 255, 255);
+            margin-top: 5vw !important;
+            }
+            .nav1{
+                font-size: 2.6vw !important;
+                text-align: center;
+                }
+                .nav2 span{
+                    font-size: 2.3vw;
+                    font-family: sans-serif;
+                line-height: 0px;    
+                }
+
+}
 @media(max-width:556px){
 .shadow{
 width: 100%;
@@ -287,17 +312,17 @@ width: 70%;
 text-align: center;
 margin: auto;
 color:rgb(255, 255, 255);
-margin-top: 9vw;
+margin-top: 10vw !important;
 }
 .nav1{
-font-size: 7vw;
+font-size: 4vw !important;
 text-align: center;
-margin-bottom: 25px;
+margin-bottom: 5px;
 }
 .nav2 span{
-font-size: 4.5vw;
+font-size: 4vw;
 font-family: sans-serif;
-line-height: 26px;
+line-height: 2px;
 }
 .navbar1{
 width: 100%;
@@ -317,7 +342,7 @@ height: 50px;
 }
 .shadow{
 width: 100%;
-height: 100vw;
+height: 80vw;
 background-color: #0F14226E;
 padding-top: 15px;
 position: relative;
@@ -339,8 +364,8 @@ z-index: 109;
 }
 .new{
 width: 100%;
-height: 110vw;
-background: url("./mvshv23_Saudi_Arabia_vector_style_e01856d6-4c5e-4c7a-84be-7f28edac86db.png" ), linear-gradient(217deg, rgba(59, 59, 59, 0.14), rgba(255,0,0,0) 70.71%),
+height: 90vw;
+background: url("../img/mvshv23_Saudi_Arabia_vector_style_e01856d6-4c5e-4c7a-84be-7f28edac86db.png" ), linear-gradient(217deg, rgba(59, 59, 59, 0.14), rgba(255,0,0,0) 70.71%),
 linear-gradient(127deg, rgba(0, 0, 0, 0.179), rgba(0,255,0,0) 70.71%),
 linear-gradient(336deg, rgba(59, 59, 59, 0.121), rgba(0,0,255,0) 70.71%);
 background-size:100% 100% ;

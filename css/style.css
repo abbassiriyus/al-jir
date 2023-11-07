@@ -157,7 +157,7 @@ padding-top: 100px;
 padding: 1%;
 position: fixed;
 top: 0px;
-right: -700px;
+right: -413px;
 z-index: 110;
 transition: 0.3s;
 }
@@ -221,26 +221,20 @@ border-radius:20px;
 }
 .spann:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 .spann1:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 .spann2:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 .spann3:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 .spann4:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }.spann5:hover{
 border:solid 3px rgb(149, 52, 52);
-box-shadow:0 0 15px rgb(255, 128, 0);
 }
 @media (max-width:1520px) {
 .nav-text{

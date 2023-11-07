@@ -77,7 +77,7 @@
   .menu{
   width: 400px;
   height: 100vh;
-  background-color: rgb(255, 115, 0);
+  background-color: rgba(0, 0, 0, 0.562);
   color: white;
   font-size: 40px;
   text-align: left;
@@ -86,7 +86,7 @@
   position: fixed;
   top: 0px;
   right: -500px;
-  z-index: 109;
+  z-index: 190;
   }
   .m_x{
   width: 90%;
@@ -148,26 +148,20 @@
   }
   .spann:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .spann1:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .spann2:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .spann3:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .spann4:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }.spann5:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .gamma select{
     width: 100%;
@@ -436,7 +430,7 @@
     flex-wrap: wrap;
     margin-top: -50px;
     position: relative;
-    z-index: 200;
+    z-index: 130;
     }
     .mim_kotta1{
     width: 50%;

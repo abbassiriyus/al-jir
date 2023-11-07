@@ -4,10 +4,14 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+width: 100vw;
+overflow-x: hidden;
+}
 .glina{
     width: 100%;
-    height: 100vh;
-    background: url("./1\ 201.png");
+    height: 99.8vh;
+    background: url("../img/1\ 201.png");
     background-size: cover;
     background-position: center;
     border: solid 1px rgba(255, 0, 0, 0);

@@ -86,13 +86,16 @@
   position: fixed;
   top: 0px;
   right: -500px;
-  z-index: 109;
+  z-index: 100000;
   }
   .m_x{
   width: 90%;
   display: flex;
   justify-content: right;
   margin-top: 40px;
+  }
+  .bx-x{
+  font-size: 50px !important;
   }
   .menu span{
   font-family: sans-serif;
@@ -148,26 +151,20 @@
   }
   .spann:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .spann1:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .spann2:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .spann3:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .spann4:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }.spann5:hover{
   border:solid 3px rgb(149, 52, 52);
-  box-shadow:0 0 15px rgb(255, 128, 0);
   }
   .gamma select{
     width: 100%;
@@ -182,6 +179,7 @@
   align-items: center;
   color: white;
   }
+  
   @media(max-width:1200px){
     .betta{
       width: 65%;
@@ -370,7 +368,7 @@
   .menu{
   width: 100%;
   height: 100vh;
-  background-color: rgb(255, 115, 0);
+  background-color: rgba(0, 0, 0, 0.562);
   color: white;
   font-size: 40px;
   text-align: left;
@@ -379,7 +377,7 @@
   position: fixed;
   top: 0px;
   right: -500px;
-  z-index: 109;
+  z-index: 150;
   }
   .new{
   width: 100%;
@@ -408,7 +406,7 @@
   .menu{
   width: 100%;
   height: 100vh;
-  background-color: rgb(255, 115, 0);
+  background-color: rgba(0, 0, 0, 0.562);
   color: white;
   font-size: 20px;
   text-align: left;
@@ -417,7 +415,7 @@
   position: fixed;
   top: 0px;
   right: -500px;
-  z-index: 109;
+  z-index: 150;
   }
   }
   .mim1{
@@ -433,7 +431,7 @@
     flex-wrap: wrap;
     margin-top: -50px;
     position: relative;
-    z-index: 200;
+    z-index: 130;
     }
     .mim_kotta1{
     width: 50%;
@@ -849,7 +847,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-          
           margin-top: 30px;
           }
           .dim3 button{

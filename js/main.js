@@ -15,10 +15,10 @@ function iris(){
     document.querySelector(".menu").style = "right: 0px"
     }
     function yopil(){
-    document.querySelector(".menu").style = "right: -414px"
+    document.querySelector(".menu").style = "right: -540px important"
     }
     function iris1(){
-        document.querySelector(".menu").style = "right: 0px"
+        document.querySelector(".menu").style = "right: 0px !important"
         }
 
 

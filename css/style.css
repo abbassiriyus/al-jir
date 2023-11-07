@@ -1,0 +1,4734 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@1,9..40&family=Fira+Sans:wght@500&family=Inter:wght@500&family=Merriweather:ital@1&family=Poppins&family=Roboto:ital,wght@0,700;1,100;1,500&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+}
+body{
+width: 100vw;
+overflow-x: hidden;
+background: #B7D0DD;
+}
+.destop-3-main{
+width: 100%;
+height:900px;
+background-image: url("../img/mvshv23_illustration_of_a_downtown_dubai_from_a_boat_on_the_wat_754ed4c0-4ff9-4fc2-b2d3-a15445b8ffe7\ 1.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.destop-3-main-fon{
+width: 100%;
+height: 880px;
+background-color: #0F14226E;
+padding-top: 20px;
+}
+.nav{
+width: 100%;
+height: 70px;
+position: relative;
+top: 30px;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+margin-bottom: 100px;
+}
+.nav-ichi{
+width: 95%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav-text{
+display: flex;
+align-items: center;
+gap: 100px;
+}
+.nav-text a{
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-weight: 100;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+text-decoration: none;
+list-style: none;
+}
+.nav-select select{
+width: 208px;
+height:39px;
+border-radius: 10.3px;
+border: 1.29px;
+background: none;
+border: 1px solid #FFFFFF;
+outline: none;
+display: flex;
+align-items: center;
+font-family: 'Marcellus SC';
+font-size:18px;
+font-weight: 100;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 10px;
+color: white;
+position: relative;
+top: -4px;
+}
+.destop-3-main-fon-text{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: end;
+padding-top: 110px;
+}
+.destop-3-main-fon-text h1{
+font-size: 60px;
+font-weight: 900;
+line-height: 82px;
+letter-spacing: 0em;
+text-align: right;
+color: white;
+margin-bottom: 35px;
+}
+.t-input-from {
+display: flex;
+justify-content: end;
+}
+.t-input-from input{
+width: 420px;
+height: 49px;
+border-radius: 80px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+background: #D9D9D9;
+font-family: 'Marcellus SC';
+font-size: 23px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000042 !important;
+padding-left: 30px;
+}
+.t-input-from input[type=number]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+.t-input-from button{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 262px;
+height: 51px;
+border-radius: 18.3px;
+gap: 10.17px;
+background: #EA9E50;
+box-shadow: 0px 10.166807174682617px 20.333614349365234px 0px #1F2022;
+border: none;
+outline: none;
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+transition: 0.4s ease inherit;
+cursor: pointer;
+}
+.t-input-from button:active {
+transform: scale(0.96);
+}
+.t-input-btn{
+display: flex;
+justify-content: center;
+}
+.nav-menu{
+display: none;
+}
+
+.menu123 {
+width: 400px;
+height: 100vh;
+background-color: rgba(49, 49, 49, 0.819);
+color: white;
+font-size: 40px;
+text-align: left;
+padding-top: 100px;
+padding: 1%;
+position: fixed;
+top: 0px;
+right: -700px;
+z-index: 110;
+transition: 0.3s;
+}
+.m_x{
+width: 90%;
+display: flex;
+justify-content: right;
+margin-top: 40px;
+}
+.menu123 span{
+font-family: sans-serif;
+line-height: 60px;
+}
+.spann{
+width: 50%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann1{
+width: 50%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann2{
+width: 57%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann3{
+width: 60%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann4{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann5{
+width: 55%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius:20px;
+}
+.spann:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+.spann1:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+.spann2:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+.spann3:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+.spann4:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}.spann5:hover{
+border:solid 3px rgb(149, 52, 52);
+box-shadow:0 0 15px rgb(255, 128, 0);
+}
+@media (max-width:1520px) {
+.nav-text{
+display: flex;
+align-items: center;
+gap: 80px;
+}
+}
+@media (max-width:1360px) {
+.nav-text{
+display: flex;
+align-items: center;
+gap: 60px;
+}
+}
+@media (max-width:1180px) {
+.nav-text{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.destop-3-main-fon-text h1{
+font-size: 50px;
+font-weight: 700;
+line-height: 82px;
+letter-spacing: 0em;
+text-align: right;
+color: white;
+margin-bottom: 35px;
+}
+.t-input-from input{
+width: 380px;
+height: 49px;
+font-family: 'Marcellus SC';
+border-radius: 80px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+background: #D9D9D9;
+font-size: 22px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000042 !important;
+padding-left: 30px;
+}
+.t-input-from button{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 202px;
+height: 41px;
+border-radius: 18.3px;
+gap: 10.17px;
+background: #EA9E50;
+box-shadow: 0px 10.166807174682617px 20.333614349365234px 0px #1F2022;
+border: none;
+outline: none;
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+transition: 0.4s ease inherit;
+cursor: pointer;
+}
+}
+@media (max-width:1001px) {
+.nav-text a{
+display: none;
+}
+.nav-menu{
+display: block;
+position: relative;
+top: -2px;
+}
+
+.nav-menu box-icon{
+cursor: pointer;
+width: 50px;
+height: 50px;
+}
+}
+@media (max-width:788px) {
+.destop-3-main-fon-text h1{
+font-size: 35px !important;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+color: white;
+margin-bottom: 15px;
+}
+.t-input-from input{
+width: 290px;
+height: 49px;
+border-radius: 80px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+background: #D9D9D9;
+font-family: 'Marcellus SC';
+font-size: 22px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000042 !important;
+padding-left: 30px;
+}
+.t-input-from button{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 202px;
+height: 41px;
+border-radius: 18.3px;
+gap: 10.17px;
+background: #EA9E50;
+box-shadow: 0px 10.166807174682617px 20.333614349365234px 0px #1F2022;
+border: none;
+outline: none;
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+transition: 0.4s ease inherit;
+cursor: pointer;
+}
+.destop-3-main{
+width: 100%;
+height:800px;
+background-image: url("../img/mvshv23_illustration_of_a_downtown_dubai_from_a_boat_on_the_wat_754ed4c0-4ff9-4fc2-b2d3-a15445b8ffe7\ 1.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.destop-3-main-fon{
+width: 100%;
+height: 780px;
+background-color: #0F14226E;
+padding-top: 20px;
+}
+}
+@media (max-width:660px) {
+.destop-3-main-fon-text h1{
+font-size: 40px;
+font-weight: 700;
+line-height:35px;
+letter-spacing: 0em;
+color: white;
+margin-bottom: 30px;
+}
+.t-input-from input{
+width: 300px;
+height: 49px;
+border-radius: 80px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+background: #D9D9D9;
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000042 !important;
+padding-left: 30px;
+}
+.t-input-from button{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 180px;
+height: 41px;
+border-radius: 18.3px;
+gap: 10.17px;
+background: #EA9E50;
+box-shadow: 0px 10.166807174682617px 20.333614349365234px 0px #1F2022;
+border: none;
+outline: none;
+font-family: 'Marcellus SC';
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+transition: 0.4s ease inherit;
+cursor: pointer;
+}
+}
+@media (max-width:540px) {
+.destop-3-main-fon-text h1{
+font-size: 32px !important ;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin-bottom: 15px;
+}
+.t-input-from input{
+width: 240px;
+height: 49px;
+border-radius: 80px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+background: #D9D9D9;
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000042 !important;
+padding-left: 30px;
+}
+.t-input-from button{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 160px;
+height: 43px;
+border-radius: 18.3px;
+gap: 10.17px;
+background: #EA9E50;
+box-shadow: 0px 10.166807174682617px 20.333614349365234px 0px #1F2022;
+border: none;
+outline: none;
+font-family: 'Marcellus SC';
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+transition: 0.4s ease inherit;
+cursor: pointer;
+}
+.destop-3-main-fon-text {
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: center !important;
+padding-top: 110px;
+}
+.t-input-from {
+display: flex;
+justify-content: center;
+}
+}
+@media (max-width:471px) {
+.destop-3-main-fon-text h1{
+font-size: 30px !important;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin-bottom: 25px;
+} 
+.t-input-from input{
+width: 260px;
+height: 48px;
+border-radius: 80px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+background: #D9D9D9;
+font-family: 'Marcellus SC';
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000042 !important;
+padding-left: 20px;
+}
+.destop-3-main-fon-text {
+width: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+padding-top: 110px;
+}
+.destop-3-main-fron-ichi{
+width: 90%;
+}
+.nav-img img{
+width: 110px;
+position: relative;
+top: 9px;
+}
+.nav-select{
+position: relative;
+top: 11px;
+}
+.nav-select select{
+width: 168px;
+height: 39px;
+}
+.nav-menu{
+font-size: 1px !important;
+position: relative;
+top: 9px;
+}
+.nav-menu box-icon{
+cursor: pointer;
+width: 30px;
+height: 30px;
+}
+.nav-text{
+width: 260px;
+display: flex;
+align-items: center;
+gap: 30px;
+}
+}
+@media (max-width:435px) {
+.destop-3-main-fon-text h1{
+font-size: 8vw !important;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin-bottom: 25px;
+} 
+.t-input-from input{
+width: 220px;
+height: 44px;
+border-radius: 80px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+background: #D9D9D9;
+font-family: 'Marcellus SC';
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000042 !important;
+padding-left: 20px;
+}
+.t-input-from button{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 140px;
+height: 43px;
+border-radius: 18.3px;
+gap: 10.17px;
+background: #EA9E50;
+box-shadow: 0px 10.166807174682617px 20.333614349365234px 0px #1F2022;
+border: none;
+outline: none;
+font-family: 'Marcellus SC';
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+transition: 0.4s ease inherit;
+cursor: pointer;
+}
+.destop-3-main-fon-text {
+width: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+padding-top: 110px;
+}
+.destop-3-main-fron-ichi{
+width: 90%;
+}
+.nav-img img{
+width: 110px;
+position: relative;
+top: 9px;
+}
+.nav-select{
+position: relative;
+top: 11px;
+}
+.nav-select select{
+width: 140px;
+height: 36px;
+}
+.nav-menu{
+font-size: 1px !important;
+position: relative;
+top: 6px;
+}
+.nav-menu box-icon{
+cursor: pointer;
+width: 39px;
+height: 39px;
+}
+.nav-text{
+width: 260px;
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.destop-3-main{
+width: 100%;
+height:700px;
+background-image: url("../img/mvshv23_illustration_of_a_downtown_dubai_from_a_boat_on_the_wat_754ed4c0-4ff9-4fc2-b2d3-a15445b8ffe7\ 1.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.destop-3-main-fon{
+width: 100%;
+height: 680px;
+background-color: #0F14226E;
+padding-top: 20px;
+}
+.destop-3-main-fon-text{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: end;
+padding-top: 30px;
+}
+}
+@media (max-width:359px) {
+.destop-3-main-fon-text h1{
+font-size: 8.22vw !important;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin-bottom: 25px;
+} 
+.t-input-from input{
+width: 180px;
+height: 42px;
+border-radius: 80px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+background: #D9D9D9;
+font-family: 'Marcellus SC';
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000042 !important;
+padding-left: 20px;
+}
+.t-input-from button{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 130px;
+height: 43px;
+border-radius: 18.3px;
+gap: 10.17px;
+background: #EA9E50;
+box-shadow: 0px 10.166807174682617px 20.333614349365234px 0px #1F2022;
+border: none;
+outline: none;
+font-family: 'Marcellus SC';
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+transition: 0.4s ease inherit;
+cursor: pointer;
+}
+.destop-3-main-fon-text {
+width: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+padding-top: 110px;
+}
+.destop-3-main-fron-ichi{
+width: 90%;
+}
+.nav-img img{
+width: 110px;
+position: relative;
+top: 9px;
+}
+.nav-select{
+position: relative;
+top: 11px;
+}
+.nav-select select{
+width: 100px;
+height: 36px;
+font-size: 13px;
+}
+.nav-menu{
+font-size: 1px !important;
+position: relative;
+top: 6px;
+}
+.nav-menu box-icon{
+cursor: pointer;
+width: 39px;
+height: 39px;
+}
+.nav-text{
+width: 185px;
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.destop-3-main{
+width: 100%;
+height:650px;
+background-image: url("../img/mvshv23_illustration_of_a_downtown_dubai_from_a_boat_on_the_wat_754ed4c0-4ff9-4fc2-b2d3-a15445b8ffe7\ 1.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.destop-3-main-fon{
+width: 100%;
+height: 630px;
+background-color: #0F14226E;
+padding-top: 20px;
+}
+.destop-3-main-fon-text{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: end;
+padding-top:10px;
+}
+}
+
+.directions-header{
+width: 100%;
+}
+.directions-header-ichi{
+width: 90%;
+margin: auto;
+padding-top: 100px;
+margin-bottom: 100px;
+}
+.directions-header-ichi-h2{
+text-align: center;
+}
+.directions-header-ichi-h2 h1{
+font-size: 75px;
+font-weight: 300;
+font-family: 'Marcellus SC';
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 20px;
+}
+.directions-header-ichi-h2 p{
+font-family: 'Marcellus SC';
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+margin-bottom: 50px;
+}
+.grid-block{
+width: 391px ;
+height: 404px;
+border-radius: 20px;
+background: url("../img/Egypt.png");
+}
+.direction-header-grid{
+display: grid;
+grid-template-columns: auto auto auto auto;
+justify-content: center;
+}
+.deriction-header-grid-2 .grid-block{
+width: 391px;
+height: 404px;
+border-radius: 20px;
+background:url("../img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png");
+background-size: 100% 100%;
+}
+.grid-block-big {
+width: 801px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Jeddah_vector_style_6bc4d70c-ad67-42ed-a7c8-d01e52317fba 1.svg");
+background-size: 100% 100%;
+cursor: pointer;
+}
+.direction-header-grid{
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-bottom: 30px;
+flex-wrap: wrap;
+}
+.deriction-header-grid-2{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.grid-block2{
+width: 391px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Medina_Saudi_Arabia_vector_style_99d1c991-49d2-449b-901f-f4b708dd1f8b\ 1.png");
+background-size: 100% 100%;
+cursor: pointer;
+}
+.grid-block3 {
+width: 391px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Antalya_old_town_Turkiye_vector_style_297c2036-1cdf-44f2-a3e5-6d9706bf6cae.png");
+background-size: 100% 100%;
+}
+.sahro-ichi-qora-fon{
+width: 100%;
+height: 100%;
+background: url("../img/Rectangle 11.png");
+cursor: pointer;
+}
+.turkiya-qora-fon{
+width: 100%;
+height: 100%;
+background: url("../img/Rectangle 11 (1).png");
+cursor: pointer;
+}
+.uea-qora-fon{
+width: 100%;
+height: 100%;
+background: url("../img/Rectangle 11 (3).png");
+cursor: pointer;
+}
+.sahro-zb h3{
+font-size: 45px;
+font-weight: 400;
+font-family: 'Marcellus SC';
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.sahro-zb{
+width: 85%;
+height: 90%;
+display: flex;
+align-items: end;
+margin: auto;
+}
+@media (max-width:1401px) {
+.directions-header-ichi {
+width: 100%;
+margin: auto;
+padding-top: 100px;
+margin-bottom: 100px;
+}
+}
+@media (max-width:1279px) {
+.grid-block {
+width: 351px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/Egypt.png");
+overflow: hidden;
+}
+.grid-block-2{
+width: 351px !important;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png");
+overflow: hidden !important;
+}
+.grid-block-3{
+width: 351px !important;
+height: 404px;
+overflow: hidden !important;
+}
+.grid-block-4{
+width: 351px !important;
+height: 404px;
+overflow: hidden !important;
+}
+
+.grid-block2 {
+width: 351px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Medina_Saudi_Arabia_vector_style_99d1c991-49d2-449b-901f-f4b708dd1f8b 1.png");
+overflow: hidden;
+}
+.grid-block3 {
+width: 351px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Antalya_old_town_Turkiye_vector_style_297c2036-1cdf-44f2-a3e5-6d9706bf6cae.png");
+background-size: 100% 100%;
+overflow: hidden;
+}
+.deriction-header-grid-3 .grid-block{
+width: 351px !important;
+height: 404px;
+overflow: hidden !important;
+}
+.grid-block-big1 {
+width: 735px !important;
+height: 404px;
+overflow: hidden !important;
+}
+.deriction-header-grid-2 .grid-block {
+width: 351px;
+border-radius: 20px;
+background: url(../img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png);
+}
+.grid-block-big {
+width: 735px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Jeddah_vector_style_6bc4d70c-ad67-42ed-a7c8-d01e52317fba 1.svg");
+}
+.sahro-zb h3 {
+font-size: 30px;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.tour-packages-header-block {
+display: flex;
+justify-content: center;
+gap: 40px !important;
+margin-bottom: 100px;
+padding-left: 10px !important;
+}
+.tour-hedaer-block1 {
+width: 341px !important;
+height: 618px;
+border-radius: 50px;
+background: url(../img/mvshv23_an_image_of_the_historical_city_of_Saudi_Arabia_in_the__32bdc0ea-79f8-4479-a718-edc13476f0f0.png);
+margin-bottom: 20px;
+overflow: hidden;
+}
+.tour-hedaer-block2 {
+width: 341px !important;
+height: 618px;
+border-radius: 50px;
+background: url(../img/Egypt1.png);
+margin-bottom: 20px;
+margin-top: 70px;
+overflow: hidden;
+}
+.tour-hedaer-block3 {
+width: 341px !important;
+height: 618px;
+border-radius: 50px;
+background: url(../img/mvshv23_an_image_of_the_historical_city_of_istanbul_in_the_styl_84206478-1913-4aa1-be39-be587e0ba80d.png);
+margin-bottom: 20px;
+overflow: hidden;
+}
+}
+@media (max-width:1157px) {
+.directions-header-ichi-h2 h1 {
+font-size: 65px;
+}
+.directions-header-ichi-h2 p {
+font-size: 25px;
+}
+.tour-packages-header-block {
+display: flex;
+justify-content: center;
+gap: 60px;
+margin-bottom: 100px;
+overflow-x: auto !important;
+overflow-y: auto !important;
+overflow: auto !important;
+}
+.tour-packages-header-block::-webkit-scrollbar {
+width: 0 !important;
+height: 0 !important;
+display: none !important;
+}
+
+.tour-hedaer-block3 {
+width: 341px !important;
+height: 618px;
+border-radius: 50px;
+background: url(../img/mvshv23_an_image_of_the_historical_city_of_istanbul_in_the_styl_84206478-1913-4aa1-be39-be587e0ba80d.png);
+margin-bottom: 20px;
+overflow: hidden;
+margin-top: 40px;
+}
+.tour-hedaer-block1 {
+width: 371px;
+height: 618px;
+border-radius: 50px;
+background: url(../img/mvshv23_an_image_of_the_historical_city_of_Saudi_Arabia_in_the__32bdc0ea-79f8-4479-a718-edc13476f0f0.png);
+margin-bottom: 20px;
+overflow: hidden;
+margin-top: 40px;
+}
+.tour-hedaer-block2 {
+width: 371px;
+height: 618px;
+border-radius: 50px;
+background: url(../img/Egypt1.png);
+margin-bottom: 20px;
+margin-top: 40px !important;
+overflow: hidden;
+}
+.tour-big-bro:hover{
+transform: translateY(0px) !important;
+}
+.tour-big-bro3:hover{
+transform: translateY(0px) !important;
+}
+.tourr-btn button{
+display: flex !important;
+justify-content: center;
+}
+.tourr-btn1{
+position: relative;
+top: 22px !important;
+}
+.oosososssa{
+position: relative;
+top: 22px !important;
+}
+}
+@media (max-width:1115px) {
+.grid-block3 {
+width: 730px;
+height: 370px !important;
+border-radius: 20px;
+overflow: hidden;
+background-repeat: no-repeat;
+background: url("../img/mvshv23_Jeddah_vector_style_6bc4d70c-ad67-42ed-a7c8-d01e52317fba 1.svg");
+background-size: 100% 100%;
+}
+.grid-block-4{
+width: 730px !important;
+height: 404px !important;
+border-radius: 20px;
+overflow: hidden !important;
+background-repeat: no-repeat !important;
+background-size: 100% 100% !important;
+}
+.deriction-header-grid-3{
+flex-wrap: wrap;
+}
+.grid-block-big1 {
+width: 351px !important;
+height: 404px !important;
+border-radius: 20px;
+background: url("../img/mvshv23_atlantis_aquaventure_waterpark_dubai_vector_style_557f6942-b199-4600-9f5a-e96bc521c04b 1.png");
+cursor: pointer;
+}
+.turkiya-qora-fon {
+width: 100%;
+height: 100%;
+background: url("../img/Rectangle 11 (1).png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.grid-block-big {
+width: 351px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Antalya_old_town_Turkiye_vector_style_297c2036-1cdf-44f2-a3e5-6d9706bf6cae.png");
+background-size: 100% 100%;
+
+}
+}
+@media (max-width:854px) {
+.directions-header-ichi-h2 h1 {
+font-size: 50px;
+}
+.directions-header-ichi-h2 p {
+font-size: 18px;
+}
+}
+@media (max-width:787px) {
+.deriction-header-grid-3 .grid-block {
+width: 90% !important;
+height: 404px;
+overflow: hidden !important;
+}
+.grid-block-big1 {
+width: 90% !important;
+height: 404px;
+border-radius: 20px;
+cursor: pointer;
+}
+.grid-block-2 {
+width: 90% !important;
+height: 404px;
+border-radius: 20px;
+overflow: hidden !important;
+background-repeat: no-repeat !important;
+background-size: 100% 100% !important;
+}
+.grid-block-3 {
+width: 90% !important;
+height: 404px;
+overflow: hidden !important;
+background-repeat: no-repeat !important;
+background-size: 100% 100% !important;
+}
+.grid-block-4 {
+width: 90% !important;
+height: 404px;
+border-radius: 20px;
+overflow: hidden !important;
+background-repeat: no-repeat !important;
+background-size: 100% 100% !important;
+}
+.grid-block {
+width: 90%;
+height: 404px;
+border-radius: 20px;
+background: url("../img/Egypt.png");
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.grid-block2 {
+width: 90%;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Medina_Saudi_Arabia_vector_style_99d1c991-49d2-449b-901f-f4b708dd1f8b 1.png");
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.grid-block3 {
+width: 90%;
+height: 404px;
+border-radius: 20px;
+background: url(../img/mvshv23_Antalya_old_town_Turkiye_vector_style_297c2036-1cdf-44f2-a3e5-6d9706bf6cae.png);
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.deriction-header-grid-2 .grid-block {
+width: 90%;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.deriction-header-grid-2 {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 30px;
+}
+.grid-block-big {
+width: 90%;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Jeddah_vector_style_6bc4d70c-ad67-42ed-a7c8-d01e52317fba 1.svg");
+background-repeat: no-repeat;
+}
+.sahro-ichi-qora-fon {
+width: 100%;
+height: 100%;
+background: url("../img/Rectangle 11.png");
+cursor: pointer;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.uea-qora-fon {
+width: 100%;
+height: 100%;
+background: url("../img/Rectangle 11 (3).png");
+cursor: pointer;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+}
+@media (max-width:726px) {
+.directions-header-ichi-h2 h1 {
+font-size: 8vw;
+}
+.directions-header-ichi-h2 p {
+font-size: 2.7vw;
+}
+}
+@media (max-width:501px) {
+.directions-header-ichi-h2 h1 {
+font-size: 40px;
+}
+.directions-header-ichi-h2 p {
+font-size: 14px;
+} 
+.tour-width-auto h1 {
+font-size: 40px !important;
+}
+}
+@media (max-width:478px) {
+.grid-block {
+width: 90%;
+height: 404px;
+border-radius: 20px;
+background: url("../img/Egypt.png");
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.sahro-ichi-qora-fon {
+width: 100%;
+height: 100%;
+background: url("../img/Rectangle\ 11.png");
+cursor: pointer;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.grid-block2 {
+width: 90%;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Medina_Saudi_Arabia_vector_style_99d1c991-49d2-449b-901f-f4b708dd1f8b 1.png");
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.uea-qora-fon {
+width: 100%;
+height: 100%;
+background: url("../img/Rectangle 11 (3).png");
+cursor: pointer;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.deriction-header-grid-2 .grid-block {
+width: 90%;
+border-radius: 20px;
+background: url("../img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+} 
+@media (max-width:464px) {
+.directions-header-ichi-h2 h1 {
+font-size: 35px;
+}
+.directions-header-ichi-h2 p {
+font-size: 12px;
+}
+}
+@media (max-width:429px) {
+.directions-header-ichi-h2 p {
+width: 85%;
+margin: auto;
+margin-bottom: 30px;
+font-size: 19px;
+}
+}
+@media (max-width:391px) {
+.tour-packages-header-block{
+margin-bottom: 0px !important;
+}
+}
+@media (max-width:380px) {
+.grid-block {
+width: 90%;
+height: 350px;
+border-radius: 20px;
+background: url("../img/Egypt.png");
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.grid-block2 {
+width: 90%;
+height: 350px;
+border-radius: 20px;
+background: url("../img/mvshv23_Medina_Saudi_Arabia_vector_style_99d1c991-49d2-449b-901f-f4b708dd1f8b 1.png");
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.deriction-header-grid-2 .grid-block {
+width: 90%;
+height: 350px;
+border-radius: 20px;
+background: url("../img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.grid-block-big{
+width: 90%;
+height: 350px;
+border-radius: 20px;
+background: url("../img/mvshv23_Jeddah_vector_style_6bc4d70c-ad67-42ed-a7c8-d01e52317fba 1.svg");
+}
+.grid-block3 {
+width: 90%;
+height: 350px !important;
+border-radius: 20px;
+background: url("../img/mvshv23_Antalya_old_town_Turkiye_vector_style_297c2036-1cdf-44f2-a3e5-6d9706bf6cae.png");
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.sahro-zb{
+width: 85%;
+height: 90%;
+display: flex;
+align-items: end;
+margin: auto;
+}
+
+}
+
+
+
+
+
+.tour-packages{
+width: 100%; 
+}
+.tour-width-auto{
+width: 90%;
+margin: auto;
+text-align: center;
+}
+.tour-hedaer-block1{
+width: 371px;
+height: 618px;
+border-radius: 50px;
+background: url("../img/mvshv23_an_image_of_the_historical_city_of_Saudi_Arabia_in_the__32bdc0ea-79f8-4479-a718-edc13476f0f0.png");
+background-size: 100% 100%;
+margin-bottom: 20px;
+overflow: hidden;
+}
+.tour-fon1 {
+width: 100%;
+height: 194px;
+background: url("../img/Rectangle 18.png");
+background-size: 100% 100%;
+text-align: center;
+}
+.tour-fon1 h3{
+padding-top: 50px;
+font-family: 'Marcellus SC';
+font-size: 35px;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.tour-big-bro{
+width: 371px;
+transform: translateX(0px);
+transition: 0.4s ease-in-out ;
+cursor: pointer;
+}
+.tour-big-bro2{
+width: 371px;
+}
+.tour-big-bro3{
+width: 371px;
+transform: translateX(0px);
+transition: 0.4s ease-in-out ;
+cursor: pointer;
+
+}
+.tour-text-d p{
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: #242A3A;
+margin-bottom: 20px;
+}
+.tour-hedaer-block2{
+width: 371px;
+height: 618px;
+border-radius: 50px;
+background: url("../img/Egypt1.png");
+margin-bottom: 20px;
+margin-top: 70px;
+overflow: hidden;
+}
+.tour-packages-header-block{
+display: flex;
+justify-content: center;
+gap: 60px;
+margin-bottom: 100px;
+}
+.tour-hedaer-block3{
+width: 371px;
+height: 618px;
+border-radius: 50px;
+background: url("../img/mvshv23_an_image_of_the_historical_city_of_istanbul_in_the_styl_84206478-1913-4aa1-be39-be587e0ba80d.png");
+background-size:100% 100%;
+margin-bottom: 20px;
+overflow: hidden;
+}
+.tour-width-auto h1{
+font-size: 70px;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+color:rgb(0, 0, 0); 
+padding-top: 30px;
+margin-bottom: 30px;
+}
+.tour-big-bro:hover {
+transform: translateY(70px);
+}
+.tour-big-bro:hover button {
+display: flex;
+}
+.tour-big-bro3:hover button {
+display: flex;
+}
+.tour-big-bro3:hover{
+transform: translateY(70px);
+display: block;
+}
+.tour-text-d button{
+width:222px;
+height: 82px;
+border: 2px;
+gap: 8px;
+border: 2px solid #F29025;
+background: #F29025;
+cursor: pointer;
+border-radius: 40px;
+color: #141841;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 0em;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.4s ease-in-out;
+display: flex;
+}
+.tourr-btn{
+display: flex;
+justify-content: center;
+}
+.tourr-btn p{
+position: relative;
+top: 7px;
+}
+.tourr-btn button{
+display: none;
+}
+.tourr-btn1{
+display: flex;
+justify-content: center;
+}
+.tourr-btn1 p{
+position: relative;
+top: 7px;
+}
+.excursions-header{
+width: 100%;
+height: 1000px;
+}
+.excursions-width-auto{
+width: 90%;
+margin: auto;
+}
+.directions-header-ichi-h3{
+width: 71%;
+margin: auto;
+}
+.directions-header-ichi-h3 h1{
+font-size: 75px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.deriction-header-grid-3 .grid-block{
+width: 391px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Jebel_Hafeet_Abu_Dhabi_vector_style_146c65cf-7727-4c05-b54d-cd9e40f6117c.png");
+overflow: hidden !important;
+background-size: 100% 100% !important;
+}
+.deriction-header-grid-3{
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-bottom:20px;
+background-size: 100% 100% !important;
+overflow: hidden !important;
+}
+.uea-qora-fon1{
+width: 100%;
+height: 100%;
+background: url("../img/bu11.png");
+cursor: pointer;
+overflow: hidden !important;
+background-repeat: no-repeat;
+background-size: 100% 100% !important;
+}
+.sahro-zb1 h3{
+font-family: 'Marcellus SC';
+font-size: 25px;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.sahro-zb1{
+width: 85%;
+height: 90%;
+display: flex;
+align-items: end;
+margin: auto;
+}
+.grid-block-big1 {
+width: 801px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_atlantis_aquaventure_waterpark_dubai_vector_style_557f6942-b199-4600-9f5a-e96bc521c04b 1.png");
+background-size:100% 100%;
+cursor: pointer;
+}
+/* background: url("./mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png"); */
+
+.grid-block-2{
+width: 391px ;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png");
+background-size: 100% 100%;
+}
+.grid-block-3{
+width: 391px;
+height: 404px;
+border-radius: 20px;
+background-size: 100% 100%;
+background: url("../img/mvshv23_Sharjah_city_UAE_vector_style_e06ce261-0231-4e8b-a52f-9a3dea4d4ceb.png");
+cursor: pointer;
+}
+/* mvshv23_Dubai_shopping_tour_Dubai_Mall_vector_style_ec031eba-05f1-4566-a276-026fa6cca38f */
+
+.grid-block-4 {
+width: 391px;
+height: 404px;
+border-radius: 20px;
+background: url("../img/mvshv23_Dubai_shopping_tour_Dubai_Mall_vector_style_ec031eba-05f1-4566-a276-026fa6cca38f.png");
+background-size: 100% 100%;
+}
+@media(max-width:391px){
+.tour-text-d button{
+width:222px;
+height: 70px;
+border: 2px;
+gap: 8px;
+border: 2px solid #F29025;
+background: #F29025;
+cursor: pointer;
+border-radius: 40px;
+color: #141841;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0em;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.4s ease-in-out;
+display: flex;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sport{
+width:100%;
+height: max-content;
+}
+.sp{
+width: 66%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+margin: auto;
+margin-bottom: 200px;
+}
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 70px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 60px;
+}
+.ji2 span{
+font-family: 'Marcellus SC';
+font-size: 26px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0.045em;
+text-align: left;
+}
+.img_sp1{
+width: 650px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.kuly1{
+width: 300px;
+height: 300px;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width: 300px;
+height: 300px;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: end;
+margin-top: 27px;
+}
+.kuly3{
+width: 330px;
+height: 640px;
+background: url("../img/mvshv23_Sport_organization_tourism_vector_style_dc99ff18-6965-47b1-8d85-a0b88c368282.png");
+background-size: 100% 100%;
+}
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:40px;
+}
+.kim2{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.187);
+border-radius:40px;
+}
+.ji3 button{
+width: 200px;
+height: 70px;
+border:none;
+border-radius: 90px;
+font-family: sans-serif;
+font-size: 17px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+@media(max-width:1602px){
+.kuly1{
+width: 300px;
+height: 280px;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width: 300px;
+height: 280px;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: end;
+margin-top: 39px;
+}
+.kuly3{
+width: 320px;
+height: 601px;
+background: url("../img/mvshv23_Sport_organization_tourism_vector_style_dc99ff18-6965-47b1-8d85-a0b88c368282.png");
+background-size: 100% 100%;
+}
+.ji3 button{
+width: 200px;
+height: 70px;
+border:none;
+border-radius: 90px;
+font-family: sans-serif;
+font-size: 17px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 181px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+}
+@media(max-width:1580px){
+.kuly1{
+width: 270px;
+height: 270px;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width: 270px;
+height: 270px;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: end;
+margin-top: 68px;
+}
+.kuly3{
+width: 310px;
+height: 609px;
+background: url("../img/mvshv23_Sport_organization_tourism_vector_style_dc99ff18-6965-47b1-8d85-a0b88c368282.png");
+background-size: 100% 100%;
+}
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:34px;
+}
+.img_sp1{
+width: 600px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.sp{
+width: 82%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+margin: auto;
+margin-bottom: 20px;
+}
+.ji3 button{
+width: 200px;
+height: 70px;
+border:none;
+border-radius: 90px;
+font-size: 17px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 203px;
+}
+}
+@media(max-width:1226px){
+.sp{
+width: 85%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+margin: auto;
+margin-bottom: 20px;
+}
+.img_sp1{
+width: 580px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.kuly1{
+width: 240px;
+height: 240px;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width: 240px;
+height: 240px;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: end;
+margin-top: 68px;
+}
+.kuly3{
+width: 310px;
+height: 557px;
+background: url("../img/mvshv23_Sport_organization_tourism_vector_style_dc99ff18-6965-47b1-8d85-a0b88c368282.png");
+background-size: 100% 100%;
+}
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 60px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 60px;
+}
+.ji2 span{
+font-family: 'Marcellus SC';
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.045em;
+text-align: left;
+}
+.ji3 button{
+width: 180px;
+height: 65px;
+border:none;
+border-radius: 90px;
+font-size: 14px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 203px;
+}
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:31px;
+}
+}
+@media(max-width:1031px){
+.sp{
+width: 85%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+margin: auto;
+margin-bottom: 20px;
+flex-wrap: wrap;
+}
+.img_sp1{
+width: 540px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.kuly1{
+width: 220px;
+height: 220px;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width: 220px;
+height: 220px;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: end;
+margin-top: 68px;
+}
+.kuly3{
+width: 290px;
+height: 507px;
+background: url("../img/mvshv23_Sport_organization_tourism_vector_style_dc99ff18-6965-47b1-8d85-a0b88c368282.png");
+background-size: 100% 100%;
+}
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 60px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 30px;
+}
+.ji2 span{
+font-family: 'Marcellus SC';
+font-size: 17px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.045em;
+text-align: left;
+}
+.ji3 button{
+width: 180px;
+height: 65px;
+border:none;
+border-radius: 90px;
+font-size: 14px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 190px;
+}
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:29px;
+}
+}
+@media(max-width:947px){
+.img_sp1{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+margin: auto;
+}
+.kuly1{
+width:34.5vw;
+height:34.5vw;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width:34.5vw;
+height:34.5vw;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: end;
+margin-top: 68px;
+}
+.kuly3{
+width: 39.9vw;
+height: 76vw;
+background: url("../img/mvshv23_Sport_organization_tourism_vector_style_dc99ff18-6965-47b1-8d85-a0b88c368282.png");
+background-size: 100% 100%;
+}
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 90px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 30px;
+}
+.ji2 span{
+font-family: 'Marcellus SC';
+font-size: 29px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.045em;
+text-align: left;
+}
+.ji3 button{
+width: 180px;
+height: 65px;
+border:none;
+border-radius: 90px;
+font-size: 14px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:44px;
+}
+.kim2{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.187);
+border-radius:48px;
+}
+}
+@media(max-width:769px){
+.ji3 button{
+width: 200px;
+height:70px;
+border:none;
+border-radius: 90px;
+font-size: 18px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 30px;
+margin-bottom: 50px;
+gap: 5px;
+}
+}
+@media(max-width:681px){
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:31px;
+}
+.kuly1{
+width:33vw;
+height:33vw;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width:33vw;
+height:33vw;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: end;
+margin-top: 68px;
+}
+.kim2{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.187);
+border-radius:41px;
+}
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 90px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 30px;
+}
+.ji2 span{
+font-family: 'Marcellus SC';
+font-size: 25px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.045em;
+text-align: left;
+}
+.ji3 button{
+width: 155px;
+height: 55px;
+border:none;
+border-radius: 90px;
+font-size: 13px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 20px;
+margin-bottom: 20px;
+gap: 5px;
+}
+}
+@media(max-width:501px){
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:22px;
+}
+.kim2{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.187);
+border-radius:30px;
+}
+.img_sp1{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+margin: auto;
+}
+.kuly1{
+width:38vw;
+height:35vw;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width:38vw;
+height:35vw;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+margin-top: 29px;
+}
+.kuly3{
+width: 41vw;
+height: 76vw;
+background: url("../img/mvshv23_Sport_organization_tourism_vector_style_dc99ff18-6965-47b1-8d85-a0b88c368282.png");
+background-size: 100% 100%;
+}
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 60px;
+font-weight: 400;
+text-align: center !important;
+margin-bottom: 30px;
+}
+.ji2 span{
+font-family: 'Marcellus SC';
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.045em;
+text-align: center;
+}
+.ji2{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+.ji9m{
+width: 100%;
+text-align: center !important;
+margin-bottom: 30px;
+}
+.ji{
+width: 100%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ji3{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ji3 button{
+width: 155px;
+height: 55px;
+border:none;
+border-radius: 90px;
+font-size: 13px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 20px;
+margin-bottom: 0px;
+gap: 5px;
+}
+}
+@media(max-width:483px){
+.directions-header-ichi-h3 h1{
+font-size: 50px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+}
+}
+@media(max-width:401px){
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 80px;
+font-weight: 400;
+text-align: center !important;
+margin-bottom: 20px;
+}
+.ji2 span{
+font-family: 'Marcellus SC';
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.045em;
+text-align: center;
+}
+.kuly1{
+width:39vw;
+height:36vw;
+background: url("../img/mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width:39vw;
+height:36vw;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+margin-top: 23px;
+}
+.kuly3{
+width: 42vw;
+height: 76vw;
+background: url("../img/mvshv23_Sport_organization_tourism_vector_style_dc99ff18-6965-47b1-8d85-a0b88c368282.png");
+background-size: 100% 100%;
+}
+}
+@media(max-width:357px){
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 60px;
+font-weight: 400;
+text-align: center !important;
+margin-bottom: 20px;
+}
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:18px;
+}
+.kim2{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.187);
+border-radius:20px;
+}
+.kuly2{
+width:39vw;
+height:36vw;
+background: url("../img/mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+margin-top: 14px;
+}
+}
+
+
+
+/* @media(max-width:391px){
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:18px;
+}
+.kim2{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.187);
+border-radius:20px;
+}
+}
+@media(max-width:321px){
+.kim1{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.24);
+border-radius:17px;
+}
+.kuly1{
+width:39vw;
+height:39vw;
+background: url("./mvshv23_consulting_services_vector_style_in_the_style_of_red_gr_53ff6d8c-647d-4899-bb49-c9d349c3c7ab.png");
+background-size: 100% 100%;
+}
+.kuly2{
+width:39vw;
+height:39vw;
+background: url("./mvshv23_an_image_of_the_sports_stadium_vector_style_39c6e9fe-28d5-4520-8807-ab016bdb5c17.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: end;
+margin-top: 10px;
+}
+.kim2{
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.187);
+border-radius:18px;
+}
+.ji h1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 60px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 30px;
+}
+.ji2 span{
+font-family: 'Marcellus SC';
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.045em;
+text-align: left;
+}
+.ji3 button{
+width: 140px;
+height: 45px;
+border:none;
+border-radius: 90px;
+font-size: 13px;
+font-weight: 600;
+background-color: #EA9E50;
+color:#1F2022;
+margin-top: 20px;
+margin-bottom: 20px;
+gap: 5px;
+}
+} */
+
+
+
+.vopros{
+width: 66%;
+margin: auto;
+}
+.vop_1{
+display: flex;
+justify-content: left;
+font-family: 'Marcellus SC';
+font-size: 70px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 60px;
+}
+.v_cards{
+width: 100%;
+}
+.v_1{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_img_1{
+width: 38%;
+height: 320px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.v_img_1 img{
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+.v_gap_1{
+width: 56%;
+height: 320px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_gap_1_1 h1{
+font-family: 'Marcellus SC';
+font-size:2vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_1_1 span{
+font-family: 'Marcellus SC';
+font-size: 1.2vw;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_2{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_img_2{
+width: 38%;
+height: 320px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.v_img_2 img{
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+.v_gap_2{
+width: 56%;
+height: 320px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_gap_2_2 h1{
+font-family: 'Marcellus SC';
+font-size:2vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_2_2 span{
+font-family: 'Marcellus SC';
+font-size: 1.2vw;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_3{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_img_3{
+width: 38%;
+height: 320px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.v_img_3 img{
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+.v_gap_3{
+width: 56%;
+height: 320px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_gap_3_3 h1{
+font-family: 'Marcellus SC';
+font-size:2vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_3_3 span{
+font-family: 'Marcellus SC';
+font-size: 1.2vw;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+
+@media(max-width:1511px){
+.vopros{
+width: 80%;
+margin: auto;
+}
+.v_gap_1{
+width: 56%;
+height: 270px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_1{
+width: 38%;
+height: 270px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.v_gap_1_1 h1{
+font-family: 'Marcellus SC';
+font-size:2.5vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_1_1 span{
+font-family: 'Marcellus SC';
+font-size: 1.3vw;
+font-weight: 400;
+line-height: -10px !important;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_2{
+width: 56%;
+height: 270px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+text-align: left;
+}
+.v_img_2{
+width: 38%;
+height: 270px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.v_gap_2_2 h1{
+font-family: 'Marcellus SC';
+font-size:2.5vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_2_2 span{
+font-family: 'Marcellus SC';
+font-size: 1.3vw;
+font-weight: 400;
+line-height: -10px !important;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_3{
+width: 56%;
+height: 270px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+text-align: left;
+}
+.v_img_3{
+width: 38%;
+height: 270px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.v_gap_3_3 h1{
+font-family: 'Marcellus SC';
+font-size:2.5vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_3_3 span{
+font-family: 'Marcellus SC';
+font-size: 1.3vw;
+font-weight: 400;
+line-height: -10px !important;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+}
+@media(max-width:1205px){
+.v_gap_1_1 span{
+font-family: 'Marcellus SC';
+font-size: 1.5vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_2_2 span{
+font-family: 'Marcellus SC';
+font-size: 1.5vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_3_3 span{
+font-family: 'Marcellus SC';
+font-size: 1.5vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+}
+@media(max-width:1004px){
+.v_gap_1{
+width: 56%;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_1{
+width: 38%;
+height: 220px;
+display: flex;
+justify-content: left;
+align-items: center;
+}.v_gap_2{
+width: 56%;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_2{
+width: 38%;
+height: 220px;
+display: flex;
+justify-content: left;
+align-items: center;
+}.v_gap_3{
+width: 56%;
+height: 220px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_3{
+width: 38%;
+height: 220px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+}
+@media(max-width:874px){
+.vopros{
+width: 90%;
+margin: auto;
+margin-top: 60px;
+}
+.v_cards{
+width: 100%;
+margin: auto;
+text-align: center;
+}
+.vop_1{
+display: flex;
+justify-content: center;
+font-family: 'Marcellus SC';
+font-size: 60px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 60px;
+}
+.v_1{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+flex-wrap: wrap;
+}
+.v_gap_1{
+width: 70%;
+height: 260px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_1{
+width: 70%;
+height: 260px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_1_1 h1{
+font-family: 'Marcellus SC';
+font-size:3.7vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_1_1 span{
+font-family: 'Marcellus SC';
+font-size: 2vw;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_2{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+flex-wrap:wrap-reverse;
+}
+.v_gap_2{
+width: 70%;
+height: 260px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_2{
+width: 70%;
+height: 260px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_2_2 h1{
+font-family: 'Marcellus SC';
+font-size:3.7vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_2_2 span{
+font-family: 'Marcellus SC';
+font-size: 2vw;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_3{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+flex-wrap: wrap;
+}
+.v_gap_3{
+width: 70%;
+height: 260px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_3{
+width: 70%;
+height: 260px;
+display: flex;
+justify-content: left;
+align-items: center; 
+margin-bottom: 30px;
+}
+.v_gap_3_3 h1{
+font-family: 'Marcellus SC';
+font-size:3.7vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_3_3 span{
+font-family: 'Marcellus SC';
+font-size: 2vw;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+}
+@media(max-width:769px){
+.v_gap_1_1 span{
+font-family: 'Marcellus SC';
+font-size: 2.2vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_2_2 span{
+font-family: 'Marcellus SC';
+font-size: 2.2vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_3_3 span{
+font-family: 'Marcellus SC';
+font-size: 2.2vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_1_1 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_2_2 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_3_3 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+}
+@media(max-width:649px){
+.v_gap_1{
+width: 90%;
+height: 270px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_1{
+width: 90%;
+height: 270px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_1_1 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_1_1 span{
+font-family: 'Marcellus SC';
+font-size: 2.7vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_2{
+width: 90%;
+height: 270px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_2{
+width: 90%;
+height: 270px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_2_2 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_2_2 span{
+font-family: 'Marcellus SC';
+font-size: 2.7vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_3{
+width: 90%;
+height: 270px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_3{
+width: 90%;
+height: 270px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_3_3 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_3_3 span{
+font-family: 'Marcellus SC';
+font-size: 2.7vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+}
+@media(max-width:501px){
+.v_gap_1{
+width: 90%;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_1{
+width: 90%;
+height: 200px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_1_1 h1{
+font-family: 'Marcellus SC';
+font-size: 3.7vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_1_1 span{
+font-family: 'Marcellus SC';
+font-size: 2.7vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_2{
+width: 90%;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_2{
+width: 90%;
+height: 200px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_2_2 h1{
+font-family: 'Marcellus SC';
+font-size: 3.7vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_2_2 span{
+font-family: 'Marcellus SC';
+font-size: 2.7vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_3{
+width: 90%;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_3{
+width: 90%;
+height: 200px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_3_3 h1{
+font-family: 'Marcellus SC';
+font-size: 3.7vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_3_3 span{
+font-family: 'Marcellus SC';
+font-size: 2.7vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+}
+@media(max-width:408px){
+.v_gap_1{
+width: 90%;
+height: 170px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_1{
+width: 90%;
+height: 170px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_1_1 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_1_1 span{
+font-family: 'Marcellus SC';
+font-size: 2.8vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_2{
+width: 90%;
+height: 170px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_2{
+width: 90%;
+height: 170px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_2_2 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_2_2 span{
+font-family: 'Marcellus SC';
+font-size: 2.8vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+.v_gap_3{
+width: 90%;
+height: 170px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F9F8F8;
+border-radius: 25px;
+}
+.v_img_3{
+width: 90%;
+height: 170px;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-bottom: 30px;
+}
+.v_gap_3_3 h1{
+font-family: 'Marcellus SC';
+font-size: 4vw;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+}
+.v_gap_3_3 span{
+font-family: 'Marcellus SC';
+font-size: 2.8vw;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #242A3A;
+}
+} 
+
+/* .otzov{
+width: 100%;
+height: 40vw;
+background: url("./mvshv23_illustration_banner_for_travel_agency_3ef610a2-5a0f-477c-8eab-e0ef9ce6364f.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+}
+.o_o{
+width: 80%;
+margin-top: 80px;
+overflow: hidden;
+}
+.o_o h1{
+font-family: 'Marcellus SC';
+font-size: 70px;
+font-weight: 400;
+line-height: 52px;
+text-align: center;
+}
+.o_cards{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 150px;
+}
+.o_card1{
+width: 380px;
+height: 205px;
+background-color: white;
+border-radius: 10px;
+}
+.lalalala{
+border-bottom: 30px solid #ffffff;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+bottom: 0px;
+top: 35px;
+height: 0;
+left: 20px;
+position: relative;
+width: 0;
+transform: rotate(-180deg);
+border-radius: 80px;
+}
+.o_koment{
+padding-left: 40px;
+padding-top: 30px;
+}
+.o_koment img{
+width: 25px;
+height: 25px;
+margin-bottom: 20px;
+}
+.o_koment span{
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 100;
+line-height: 20px;
+letter-spacing: 0em;
+color: #474747;
+text-align: left;
+}
+.akkaunt_polizovanelya{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+}
+.polzovatel1{
+width: 20%;
+display: flex;
+align-items: center;
+gap: 25px;
+margin-top: 20px;
+overflow: hidden;
+position: relative;
+left: 0px;
+}
+.polizovatel_gap h3{
+font-family: 'Marcellus SC';
+font-size: 18px;
+font-weight: 900;
+}
+.polizovatel_gap span{
+font-size: 14px;
+font-weight: 700;
+gap: 25px;
+font-family: 'Marcellus SC';
+color: #2b1a1a;
+}
+.polzovatel2{
+width: 23%;
+display: flex;
+align-items: center;
+margin-top: 20px;
+gap: 24px;
+overflow: hidden;
+position: relative;
+left: 30px;
+}
+.polzovatel3{
+width: 365px;
+display: flex;
+justify-content: left;
+gap: 25px;
+align-items: center;
+overflow: hidden;
+margin-top: 20px;
+}
+@media(max-width:1551px){
+.otzov{
+width: 100%;
+height: 52vw;
+background: url("./mvshv23_illustration_banner_for_travel_agency_3ef610a2-5a0f-477c-8eab-e0ef9ce6364f.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+}
+.o_o{
+width: 90%;
+margin-top: 70px;
+}
+}
+@media(max-width:1356px){
+.o_card1{
+width: 320px;
+height: 180px;
+background-color: white;
+border-radius: 10px;
+}
+.o_koment{
+padding-left: 20px;
+padding-top: 30px;
+}
+.o_koment img{
+width: 20px;
+height: 20px;
+margin-bottom: 10px;
+}
+.o_koment span{
+font-size: 13px;
+font-family: sans-serif;
+font-weight: 100;
+line-height: 20px;
+letter-spacing: 0em;
+color: #474747;
+text-align: left;
+}
+.lalalala{
+border-bottom: 30px solid #ffffff;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+bottom: 0px;
+top: 25px;
+height: 0;
+left: 20px;
+position: relative;
+width: 0;
+transform: rotate(-180deg);
+border-radius: 80px;
+}
+.polzovatel1{
+width: 20%;
+display: flex;
+align-items: center;
+gap: 25px;
+margin-top: 20px;
+position: relative;
+left: 10px;
+}
+.polzovatel2{
+width: 23%;
+display: flex;
+align-items: center;
+margin-top: 20px;
+gap: 24px;
+position: relative;
+left: 50px;
+}
+.polzovatel3{
+width: 365px;
+display: flex;
+justify-content: left;
+gap: 25px;
+align-items: center;
+margin-top: 20px;
+position: relative;
+left: 60px;
+}
+}
+@media(max-width:1207px){
+.otzov{
+width: 100%;
+height: 60vw;
+background: url("./mvshv23_illustration_banner_for_travel_agency_3ef610a2-5a0f-477c-8eab-e0ef9ce6364f.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+.o_o{
+width: 88%;
+margin-top: 70px;
+}
+.o_card1{
+width: 300px;
+height: 170px;
+background-color: white;
+border-radius: 10px;
+}
+.o_koment{
+padding-left: 20px;
+padding-top: 30px;
+}
+.o_koment img{
+width: 20px;
+height: 20px;
+margin-bottom: 10px;
+}
+.o_koment span{
+font-size: 12px;
+font-family: sans-serif;
+font-weight: 100;
+line-height: 20px;
+letter-spacing: 0em;
+color: #474747;
+text-align: left;
+}
+.lalalala{
+border-bottom: 22px solid #ffffff;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+bottom: 0px;
+top: 20px;
+height: 0;
+left: 20px;
+position: relative;
+width: 0;
+transform: rotate(-180deg);
+border-radius: 80px;
+}
+.polzovatel1{
+width: 20%;
+display: flex;
+align-items: center;
+gap: 25px;
+margin-top: 20px;
+position: relative;
+left: 10px;
+}
+.polzovatel2{
+width: 23%;
+display: flex;
+align-items: center;
+margin-top: 20px;
+gap: 24px;
+position: relative;
+left: 0px;
+}
+.polzovatel3{
+width: 250px;
+display: flex;
+justify-content: left;
+gap: 25px;
+align-items: center;
+margin-top: 20px;
+position: relative;
+left: -40px;
+}
+.polzovatel1 img{
+width: 45px;
+height: 45px;
+}
+.polzovatel2 img{
+width: 45px;
+height: 45px;
+}
+.polzovatel3 img{
+width: 45px;
+height: 45px;
+}
+.polizovatel_gap h3{
+font-family: 'Marcellus SC';
+font-size: 15px;
+font-weight: 900;
+}
+.polizovatel_gap span{
+font-size: 11px;
+font-weight: 700;
+gap: 25px;
+font-family: 'Marcellus SC';
+color: #2b1a1a;
+}
+}
+@media(max-width:1073px){
+.otzov{
+width: 100%;
+height: 60vw;
+background: url("./mvshv23_illustration_banner_for_travel_agency_3ef610a2-5a0f-477c-8eab-e0ef9ce6364f.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+.o_o{
+width: 93%;
+margin-top: 80px;
+}
+.o_card1{
+width: 300px;
+height: 170px;
+background-color: white;
+border-radius: 10px;
+margin-top: -70px;
+}
+.akkaunt_polizovanelya{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+}
+@media(max-width:1033px){
+/* .o_card{
+width: 1400px;
+margin-top: 150px;
+display: flex;
+justify-content: center;
+gap: 200px;
+margin-bottom: 100px;
+overflow-x: auto !important;
+overflow-y: auto !important;
+overflow: auto !important;
+} */
+/* .otzov{
+width: 100%;
+height: 60vw;
+background: url("./mvshv23_illustration_banner_for_travel_agency_3ef610a2-5a0f-477c-8eab-e0ef9ce6364f.png");
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+.o_o{
+width: 93%;
+margin-top: 80px;
+}
+.o_card1{
+width: 270px;
+height: 160px;
+background-color: white;
+border-radius: 10px;
+margin-top: -70px;
+}
+.akkaunt_polizovanelya{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+.o_koment{
+padding-left: 20px;
+padding-top: 15px;
+}
+.o_koment img{
+width: 16px;
+height: 16px;
+margin-bottom: 10px;
+}
+.o_koment span{
+font-size: 11px;
+font-family: sans-serif;
+font-weight: 100;
+line-height: 20px;
+letter-spacing: 0em;
+color: #474747;
+text-align: left;
+}
+.lalalala{
+border-bottom: 22px solid #ffffff;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+bottom: 0px;
+top: 27px;
+height: 0;
+left: 20px;
+position: relative;
+width: 0;
+transform: rotate(-180deg);
+border-radius: 80px;
+}
+.polzovatel1{
+width: 20%;
+display: flex;
+align-items: center;
+gap: 25px;
+margin-top: 20px;
+position: relative;
+left: 10px;
+}
+.polzovatel2{
+width: 23%;
+display: flex;
+align-items: center;
+margin-top: 20px;
+gap: 24px;
+position: relative;
+left: 0px;
+}
+.polzovatel3{
+width: 250px;
+display: flex;
+justify-content: left;
+gap: 25px;
+align-items: center;
+margin-top: 20px;
+position: relative;
+left: -0px;
+}
+.polzovatel1 img{
+width: 45px;
+height: 45px;
+}
+.polzovatel2 img{
+width: 45px;
+height: 45px;
+}
+.polzovatel3 img{
+width: 45px;
+height: 45px;
+}
+.polizovatel_gap h3{
+font-family: 'Marcellus SC';
+font-size: 13px;
+font-weight: 900;
+}
+.polizovatel_gap span{
+font-size: 10px;
+font-weight: 700;
+gap: 25px;
+font-family: 'Marcellus SC';
+color: #2b1a1a;
+}
+} */
+
+.main2 {
+min-height: 700px;
+background: url("../img/mvshv23_illustration_banner_for_travel_agency_3ef610a2-5a0f-477c-8eab-e0ef9ce6364f.png");
+background-size: cover;
+padding-top: 70px;
+}
+
+
+.main2 h2{
+font-family: 'Marcellus', serif;
+font-size: 80px;
+font-weight: 400;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+}
+.message img{
+width: 25px;
+height: 25px;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+.main2 .message{
+background: url("../img/Block\ 2.png");
+background-size: 100% 100%;
+width: 360px;
+height: 206px;
+padding-left: 20px;
+}
+.main2 .message p{
+font-family: 'Jost', sans-serif;
+font-size: 18px;
+width: 100%;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center !important;
+}
+.main2 .account .string h5{
+font-family: 'Manrope', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.main2 .account .string p{
+font-family: 'Manrope', sans-serif;
+font-family: Manrope;
+font-size: 14px;
+font-weight: 400 !important;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.main2 .account{
+display: flex;
+align-items: center;
+gap: 20px;
+position: relative;
+left: 20px;
+top: 20px;
+}
+.main2 .card1{
+width: 400px;
+min-width: 300px;
+margin-bottom: 50px;
+}
+.main2 .cards{
+display: flex;
+width: 90%;
+margin: auto;
+justify-content: space-around;
+flex-wrap:wrap;
+margin-top: 80px !important;
+margin-bottom: 50px;
+}
+@media(max-width:496px){
+.main2 .card1{
+width: 100%;
+min-width: 300px;
+margin-bottom: 50px;
+}
+.main2 h2{
+font-size: 60px;
+}
+.main2 .message p{
+font-family: 'Jost', sans-serif;
+font-size: 15px;
+width: 100% !important;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left !important;
+}
+.main2 .message{
+background: url("../img/Block\ 2.png");
+background-size: 100% 100%;
+width: 370px;
+height: 206px;
+margin: auto;
+padding-left: 10px;
+}
+.main2 .cards{
+display: flex;
+width: 90%;
+margin: auto !important;
+text-align: center !important;
+justify-content: center !important;
+flex-wrap:wrap;
+margin-top: 30px !important;
+margin-bottom: 50px;
+}
+.message img{
+width: 25px;
+height: 25px;
+margin-bottom: 10px;
+margin-top: 40px;
+padding-top: 23px;
+display: flex;
+justify-content: left;
+}
+}
+@media(max-width:440px){
+.main2 .message{
+width: 90%;
+}
+}
+@media(max-width:392px){
+.main2 .message{
+width: 85%;
+height: 150px; 
+padding-bottom: 20px;
+}
+.message img{
+width: 20px;
+height: 20px;
+margin-bottom: 0px;
+margin-top: 40px;
+padding-top: 20px;
+display: flex;
+justify-content: left;
+}
+.main2 .message p{
+font-family: 'Jost', sans-serif;
+font-size: 13px;
+width: 97% !important;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+margin: auto;
+}
+.main2 .cards{
+display: flex;
+width: 90%;
+margin: auto !important;
+text-align: center !important;
+justify-content: center !important;
+flex-wrap:wrap;
+margin-top: 30px !important;
+margin-bottom: 50px;
+}
+
+}
+@media(max-width:357px){
+.main2 h2{
+font-size: 50px;
+margin-bottom: 0px;
+}
+.cards{
+margin-top: -130px !important;
+}
+}
+.neizvesno{
+width: 100%;
+height: 700px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.n_glava{
+width: 70%;
+height: 450px;
+background-color: white;
+border-radius: 90px;
+}
+.n_glava2{
+margin-left: 100px;
+margin-top: 100px;
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 48px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 30px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input{
+width: 90%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 100px;
+flex-wrap: wrap;
+}
+.n_g_input .inp1{
+width: 450px;
+height: 58px;
+border-radius: 19px;
+border: 1px solid #F4F6F9;
+padding-left: 20px;
+font-size: 20px;
+font-size: 'Marcellus SC';
+}
+.n_g_input .inp2{
+width: 450px;
+height: 58px;
+border: 1px solid #F4F6F9;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size: 20px;
+font-size: 'Marcellus SC';
+}
+.n_g_input_1{
+width: 42.5%;
+flex-wrap: wrap;
+}
+.n_g_input_2{
+width: 50%;
+display: flex !important;
+justify-content: space-between !important;
+align-items: center;
+position: relative;
+}
+.n_g_input button{
+width: 117px;
+height: 60px;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 20px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: absolute;
+right: 0px;
+}
+@media(max-width:1696px){
+.n_g_input .inp1{
+width: 380px;
+height: 58px;
+border-radius: 19px;
+border: 1px solid #E6E6E6;
+padding-left: 20px;
+font-size: 20px;
+font-size: 'Marcellus SC';
+}
+.n_g_input .inp2{
+width: 380px;
+height: 58px;
+border: 1px solid #E6E6E6;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size: 20px;
+font-size: 'Marcellus SC';
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 45px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 30px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size: 15px;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input button{
+width: 117px;
+height: 60px;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 18px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: absolute;
+right: 0px;
+}
+}
+@media(max-width:1488px){
+.neizvesno{
+width: 100%;
+height: 700px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.n_glava{
+width: 70%;
+height: 400px;
+background-color: white;
+border-radius: 90px;
+}
+.n_glava2{
+margin-left: 80px;
+margin-top: 80px;
+}
+.n_g_input .inp1{
+width: 350px;
+height: 55px;
+border-radius: 19px;
+border: 1px solid #E6E6E6;
+padding-left: 20px;
+font-size: 16px;
+font-size: 'Marcellus SC';
+}
+.n_g_input .inp2{
+width: 350px;
+height: 55px;
+border: 1px solid #E6E6E6;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size:16px;
+font-size: 'Marcellus SC';
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 40px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 20px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size: 13px;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input button{
+width: 110px;
+height: 57px;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 18px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: absolute;
+right: 0px;
+}
+}
+@media(max-width:1335px){
+.neizvesno{
+width: 100%;
+height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.n_glava{
+width: 60%;
+height: 490px;
+background-color: white;
+border-radius: 90px;
+text-align: center;
+}
+.n_glava2{
+margin-left: 0px;
+margin-top: 80px;
+}
+.n_g_input{
+width: 90%;
+display: block;
+margin: auto;
+margin-top: 100px;
+flex-wrap: wrap;
+}
+.n_g_input_1{
+width: 100%;
+height: max-content;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+}
+.n_g_input_2{
+width: 64%;
+display: flex !important;
+justify-content: space-between !important;
+align-items: center;
+margin: auto;
+position: relative;
+}
+.n_g_input .inp1{
+width: 33vw;
+height: 4vw;
+border-radius: 19px;
+border: 1px solid #E6E6E6;
+padding-left: 20px;
+font-size: 16px;
+font-size: 'Marcellus SC';
+margin-bottom: 30px;
+}
+.n_g_input .inp2{
+width: 25.5vw;
+height: 4vw;
+border: 1px solid #E6E6E6;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size:16px;
+font-size: 'Marcellus SC';
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 40px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input button{
+width: 7.4vw;
+height: 4.15vw;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 1.5vw;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: relative;
+right: 0px;
+}
+}
+@media(max-width:1181px){
+.neizvesno{
+width: 100%;
+height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.n_glava{
+width: 55%;
+height: 360px;
+background-color: white;
+border-radius: 90px;
+text-align: center;
+}
+.n_glava2{
+margin-top: 50px;
+}
+.n_g_input{
+width: 90%;
+display: block;
+margin: auto;
+margin-top:30px;
+flex-wrap: wrap;
+}
+.n_g_input_1{
+width: 100%;
+height: max-content;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+}
+.n_g_input_2{
+width: 69%;
+display: flex !important;
+justify-content: space-between !important;
+align-items: center;
+margin: auto;
+position: relative;
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 30px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size: 13px;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input .inp1{
+width: 32vw;
+height: 4.9vw;
+border-radius: 19px;
+border: 1px solid #E6E6E6;
+padding-left: 20px;
+font-size: 16px;
+font-size: 'Marcellus SC';
+margin-bottom: 30px;
+}
+.n_g_input .inp2{
+width: 25.9vw;
+height: 4.9vw;
+border: 1px solid #E6E6E6;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size:16px;
+font-size: 'Marcellus SC';
+}
+.n_g_input button{
+width: 7.4vw;
+height: 5vw;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 1.5vw;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: relative;
+right: 0px;
+}
+}
+@media(max-width:927px){
+.neizvesno{
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.n_glava{
+width: 70%;
+height: 360px;
+background-color: white;
+border-radius: 90px;
+text-align: center;
+}
+.n_glava2{
+margin-top: 50px;
+}
+.n_g_input{
+width: 95%;
+display: block;
+margin: auto;
+margin-top:30px;
+flex-wrap: wrap;
+}
+.n_g_input_1{
+width: 100%;
+height: max-content;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+}
+.n_g_input_2{
+width: 80%;
+display: flex !important;
+justify-content: space-between !important;
+align-items: center;
+margin: auto;
+position: relative;
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 4.9vw;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size:  2vw;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input .inp1{
+width: 49vw;
+height: 5.9vw;
+border-radius: 19px;
+border: 1px solid #E6E6E6;
+padding-left: 20px;
+font-size: 16px;
+font-size: 'Marcellus SC';
+margin-bottom: 30px;
+}
+.n_g_input .inp2{
+width: 37vw;
+height: 5.9vw;
+border: 1px solid #E6E6E6;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size:16px;
+font-size: 'Marcellus SC';
+}
+.n_g_input button{
+width: 15vw;
+height: 6.1vw;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 1.8vw;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: relative;
+right: 0px;
+}
+}
+@media(max-width:647px){
+.neizvesno{
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.n_glava{
+width: 80%;
+height: 400px;
+background-color: white;
+border-radius: 30px;
+text-align: center;
+}
+.n_glava2{
+margin-top: 80px;
+}
+.n_g_input{
+width: 95%;
+display: block;
+margin: auto;
+margin-top:30px;
+flex-wrap: wrap;
+}
+.n_g_input_1{
+width: 100%;
+height: max-content;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+}
+.n_g_input_2{
+width: 80%;
+display: flex !important;
+justify-content: space-between !important;
+align-items: center;
+margin: auto;
+position: relative;
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 5.89vw;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size:  2.6vw;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input .inp1{
+width: 77%;
+height: 8vw;
+border-radius: 19px;
+border: 1px solid #E6E6E6;
+padding-left: 20px;
+font-size: 16px;
+font-size: 'Marcellus SC';
+margin-bottom: 30px;
+}
+.n_g_input .inp2{
+width: 46vw;
+height: 8vw;
+border: 1px solid #E6E6E6;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size:16px;
+font-size: 'Marcellus SC';
+}
+.n_g_input button{
+width: 19.2vw;
+height: 8.2vw;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 2.3vw;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: relative;
+right: 0px;
+}
+}
+@media(max-width:555px){
+.neizvesno{
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.n_glava{
+width: 80%;
+height: 64vw;
+background-color: white;
+border-radius: 30px!important;
+text-align: center;
+}
+.n_glava2{
+margin-top: 50px;
+}
+.n_g_input button{
+width: 19.2vw;
+height: 8.2vw;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 3vw;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: relative;
+right: 0px;
+}
+}
+@media(max-width:474px){
+.neizvesno{
+width: 100%;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.n_glava{
+width: 80%;
+height: 60vw;
+background-color: white;
+border-radius: 40px;
+text-align: center;
+}
+.n_glava2{
+margin-top: 30px;
+}
+.n_g_input{
+width: 95%;
+display: block;
+margin: auto;
+margin-top:10px;
+flex-wrap: wrap;
+}
+.n_g_input_1{
+width: 100%;
+height: max-content;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+}
+.n_g_input_2{
+width: 80%;
+display: flex !important;
+justify-content: space-between !important;
+align-items: center;
+margin: auto;
+position: relative;
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 5.89vw;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size:  2.6vw;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input .inp1{
+width: 77%;
+height: 9.5vw;
+border-radius: 19px;
+border: 1px solid #E6E6E6;
+padding-left: 20px;
+font-size: 16px;
+font-size: 'Marcellus SC';
+margin-bottom: 30px;
+}
+.n_g_input .inp2{
+width: 46vw;
+height: 9.5vw;
+border: 1px solid #E6E6E6;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size:16px;
+font-size: 'Marcellus SC';
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 6.5vw;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size:  2.9vw;
+font-weight: 400;
+text-align: left;
+}
+.n_g_input button{
+width: 90px;
+height: 45.7px;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 3.5vw;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: relative;
+right: 0px;
+}
+}
+@media(max-width:440px){
+.n_glava{
+height: 270px;
+}
+
+}
+@media(max-width:429px){
+.n_glava{
+width: 90%;
+height: 60vw;
+background-color: white;
+border-radius: 40px;
+text-align: center;
+}
+.n_glava2 span{
+font-family: 'Marcellus SC';
+font-size:  3.1vw;
+font-weight: 400;
+text-align: left;
+}
+.n_glava2 h1{
+font-family: 'Marcellus SC';
+font-size: 5.7vw;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+}
+.n_g_input .inp1{
+width: 77%;
+height: 9.5vw;
+border-radius: 19px;
+border: 1px solid #E6E6E6;
+padding-left: 20px;
+font-size: 16px;
+font-size: 'Marcellus SC';
+margin-bottom: 30px;
+}
+.n_g_input .inp2{
+width: 46.5vw;
+height: 9.5vw;
+border: 1px solid #E6E6E6;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+padding-left: 20px;
+font-size:16px;
+font-size: 'Marcellus SC';
+}
+.n_g_input button{
+width: 71px;
+height: 42.9px;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 2.8vw;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: relative;
+right: 0px;
+}
+}
+@media(max-width:391px){
+.n_g_input button{
+width: 71px;
+height: 39px;
+border: 1px;
+background-color: #F29025;
+color: #E6E6E6;
+font-family: 'Marcellus SC';
+font-size: 2.8vw;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px; 
+position: relative;
+right: 0px;
+}
+.n_glava{
+width: 90%;
+height: 63vw;
+background-color: white;
+border-radius: 40px;
+text-align: center;
+}
+}
+
+.fon{
+width: 100%;
+height: 30vw;
+position: relative;
+z-index: 1210 !important;
+}
+.fon img{
+width: 100%;
+height: 100%;
+position: relative;
+z-index: 104;
+}
+
+.footer{
+background: #F29025;
+margin-top: -20vw;
+}
+.footer img{
+width: 100%;
+}
+.footer .page{
+display: flex;
+list-style: none;
+justify-content: space-around;
+max-width: 1500px;
+flex-wrap: wrap;
+margin: auto;
+width: 85%;
+}
+.footer .page ul{
+list-style: none;
+font-family: 'Jost', sans-serif;
+font-size: 18px;
+position: relative;
+right: 25px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.04em;
+text-align: left;
+color: white;
+}
+.footer .page ul a{
+text-decoration: none;
+font-family: 'Jost', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.04em;
+text-align: left;
+color: white;
+}
+.footer_icons li .bx,.footer_icons li a{
+font-size: 40px !important;
+margin-top: 20px !important;
+}
+.insa{
+margin-bottom: 40px;
+}
+@media(max-width:866px){
+.footer_icons{
+width: 20px;
+align-items: center;
+} 
+.footer_icons li .bx,.footer_icons li a{
+margin-top: 0px !important;
+font-size: 30px !important;
+}
+.insa{
+margin-bottom: 0px;
+}
+.footer .page ul a{
+font-size:11px;
+}
+}
+@media(max-width:530px){
+.footer{
+height: 450px;
+}
+.footer .page{
+display: block; 
+margin-left: 60px;
+height: 200px;
+}
+.footer_icons{
+position: relative;
+left: 85%;
+top: -200px;
+}
+.footer .page ul a{
+font-size:14px;
+}
+}
+@media(max-width:390px){
+.footer_icons{
+position: relative;
+left: 76%;
+top: -200px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

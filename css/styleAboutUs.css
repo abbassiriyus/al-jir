@@ -1,0 +1,401 @@
+
+/* header and navber */
+.header{
+    background: url('../img/mvshv23_illustration_banner_for_travel_agency_76985a48-b8bb-4ea1-b8b9-b1e4b16fa526.png');
+    /* min-height: 900px; */
+    background-size: cover;
+}
+
+*{
+    outline: none !important;
+}
+.navbar-brand img{
+    height: 70px;
+    scale: 1.1;
+}
+.navbar-expand-lg{
+    position: absolute !important;
+    top: 0px;
+    background-color: rgba(240, 248, 255, 0);
+    width: 100%;
+border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+border-top: 3px solid rgba(255, 255, 255, 0.582);
+margin-top: 50px;
+padding-left: 5% !important;
+height: 100px;
+padding-right: 5% !important;
+}
+.navbar-expand-lg .m-auto{
+    gap: 30px;
+}
+.qora{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.425);
+   padding-top: 20%;
+   padding-bottom:10% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-expand-lg .nav-link{
+    color: white;
+}
+.navbar-expand-lg .navbar_select{
+    width:208px;
+height: 34.88px;
+padding: 2.44px 12.88px 6.44px 12.88px;
+border-radius: 10.3px;
+border: 1.29px solid white;
+outline: none;
+gap: 12.88px;
+background-color: rgba(240, 248, 255, 0);
+color: white;
+background-color: rgba(255, 228, 196, 0) !important;
+}
+.navbar-expand-lg .navbar_select option{
+    background-color: rgba(255, 228, 196, 0) !important;
+    color: black;
+}
+@media (max-width:991px){
+    .navbar-expand-lg .m-auto{
+        gap: 10px;
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-collapse{
+      background-color: #EA9E50;  
+      border-radius: 35px;
+      padding-bottom: 10px;
+    }
+    .navbar-expand-lg .navbar_select{
+        margin: auto;
+    }
+    .qora{
+       padding-top: 300px;
+       padding-bottom: 100px;
+    }
+}
+.bx-menu{
+    color: white;
+}
+.navbar-expand-lg .navbar-toggler{
+    font-size: 23px;
+    border: none;
+    box-shadow: none;
+}
+.header .header_center{
+    text-align: center;
+
+} 
+.header .header_center h1{
+    font-family: sans-serif;
+font-size: 96px;
+font-weight: 700;
+line-height: 120px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+.header .header_center span{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+.header .header_center button{
+padding: 10px;
+border-radius: 10px;
+gap: 10px;
+background: #F29025;
+font-family: Lato;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin-top: 30px;
+border: none;
+}
+@media(max-width:991px){
+    .header .header_center span{
+        font-size: 15px;
+    }  
+    .header .header_center h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+}
+
+
+
+/* 1-main */
+
+.main{
+    background: #B7D0DD;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.main_body{
+    background: #EA9E50;
+    width: 90%;
+    margin: auto;
+    min-width: 320px;
+    border-radius: 72px;
+  
+}
+
+.main_body h2{
+    font-family: 'Marcellus', serif;
+font-size: 60px;
+font-weight: 400;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+}
+
+
+.display_string{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.display_string .string{
+width: 40%;
+min-width: 300px;
+}
+.display_string .string h3{
+    font-family: 'Marcellus', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.display_string .string p{
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #525C60;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.display_string .image2{
+display: none;
+}
+.display_string img{
+    width: 30%;
+    min-width: 300px;
+}
+
+@media(max-width:991px){
+    .display_string .string h3{
+        font-size: 24px;
+    }
+    .display_string .string p{
+            font-size: 18px;
+        }
+    .main_body h2{
+font-size: 30px;
+        }
+}
+@media(max-width:746px){
+    .display_string .image1{
+display: none;
+    }
+    .display_string .image2{
+    display:block;
+    }    
+}
+@media(max-width:400px){
+    .main{
+        padding: 0;
+
+    }
+    .main_body{
+        border: none;
+        border-radius: 0px;
+        width: 100%;
+        background-color:#B7D0DD ;
+    }
+}
+
+
+
+
+
+
+/* 2-main */
+
+.main2 {
+    min-height: 700px;
+background: url("../img/mvshv23_illustration_banner_for_travel_agency_6b31665a-b45d-4481-9a5e-1de50888eab0.png");
+background-size: cover;
+padding-top: 100px;
+}
+
+
+.main2 h2{
+    font-family: 'Marcellus', serif;
+font-size: 80px;
+font-weight: 400;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.main2 .message{
+    background: url("../img/message.png");
+background-size: 100% 100%;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 10%;
+padding-right: 10%;
+}
+.main2 .message span{
+    font-family: 'Jost', sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.main2 .account .string h5{
+    font-family: 'Manrope', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.main2 .account .string p{
+    font-family: 'Manrope', sans-serif;
+font-family: Manrope;
+font-size: 14px;
+font-weight: 400 !important;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.main2 .account{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.main2 .card1{
+    width: 30%;
+    min-width: 300px;
+}
+.main2 .cards{
+    display: flex;
+    width: 90%;
+
+margin: auto;
+justify-content: space-around;
+flex-wrap:wrap;
+    margin-top: 40px;
+}
+
+
+
+
+
+/* foooter */
+.footer{
+    background: #F29025;
+    margin-top: -0vw;
+    }
+    .footer img{
+    width: 100%;
+    }
+    .footer .page{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 85%;
+    }
+    .footer .page ul{
+    list-style: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    position: relative;
+    right: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: white;
+    }
+    .footer .page ul a{
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: white;
+    }
+    .footer_icons li .bx,.footer_icons li a{
+    font-size: 40px !important;
+    margin-top: 20px !important;
+    }
+    .insa{
+    margin-bottom: 40px;
+    }
+    @media(max-width:866px){
+    .footer_icons{
+    width: 20px;
+    align-items: center;
+    } 
+    .footer_icons li .bx,.footer_icons li a{
+    margin-top: 0px !important;
+    font-size: 30px !important;
+    }
+    .insa{
+    margin-bottom: 0px;
+    }
+    .footer .page ul a{
+    font-size:11px;
+    }
+    }
+    @media(max-width:530px){
+    .footer{
+    height: 450px;
+    }
+    .footer .page{
+    display: block; 
+    margin-left: 60px;
+    height: 200px;
+    }
+    .footer_icons{
+    position: relative;
+    left: 85%;
+    top: -200px;
+    }
+    .footer .page ul a{
+    font-size:14px;
+    }
+    }
+    @media(max-width:390px){
+    .footer_icons{
+    position: relative;
+    left: 76%;
+    top: -200px;
+    }
+    }
+    
